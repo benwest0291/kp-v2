@@ -1,0 +1,75 @@
+/* main-style.css */
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background: #fff;
+    color: #000;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+  h1{
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  blockquote{
+    text-align: center;
+  }
+
+  .jumbotron{
+    margin-top: 15px;
+    padding-bottom: 700px;
+    background-image:url(./Images/KP_cover_Facebook_JPG.jpg);
+    background-size: cover;
+  }
+  
+  /* Treatments */
+
+  .top-spacing{
+    margin: 40px;
+    padding: 45px;
+  }
+  
+  .card{
+    padding: 50px;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  img{
+    border-radius: 100%;
+  }
+
+  /* footer */
+
+  #footer{
+    background-color: #C1D3D3;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+
+  #footer a {
+    color:#000;
+    font-size: 20px;
+  }
+  
+  .base-footer{
+    color:#000;
+    text-align: center;
+  }
+
+  
