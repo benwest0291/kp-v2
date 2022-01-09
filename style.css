@@ -3,73 +3,209 @@
   box-sizing: border-box;
 }
 
-body{
-    background: #fff;
-    color: #000;
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+body {
+  background: #eff4f3;
+  color: #000;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
 }
 
-  h1{
-    text-align: center;
-  }
+h1 {
+  text-align: center;
+}
 
-  h2 {
-    text-align: center;
-    margin-bottom: 30px;
-  }
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 
-  p{
-    text-align: center;
-  }
+p {
+  text-align: center;
+  padding: 20px;
+}
 
-  blockquote{
-    text-align: center;
-  }
+/* nav bar */
 
-  .jumbotron{
-    margin-top: 15px;
-    padding-bottom: 700px;
-    background-image:url(./Images/KP_cover_Facebook_JPG.jpg);
-    background-size: cover;
-  }
-  
-  /* Treatments */
+.navbar a {
+  float: left;
+  display: inline;
+  color: #60656b;
+  text-align: center;
+  text-decoration: none;
+}
 
-  .top-spacing{
-    margin: 40px;
-    padding: 45px;
-  }
-  
-  .card{
-    padding: 50px;
-    font-weight: lighter;
-    text-align: center;
-  }
+.navbar a:hover {
+  color: pink;
+}
 
-  img{
-    border-radius: 100%;
-  }
+.float-right {
+  float: right;
+}
 
-  /* footer */
+.navbar-lewagon {
+  background: #eff4f3;
+  width: 100%;
+  border-bottom: solid #fff 2px;
+  width: 100vw;
+}
+.navbar-toggler {
+  border: solid 2px #fff !important;
+}
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+  justify-content: space-between;
+  width: 100%;
+}
 
-  #footer{
-    background-color: #C1D3D3;
-    text-align: center;
-    color: #000;
-    font-size: 18px;
-    padding: 20px;
-    margin-bottom: 0;
-  }
+.navbar-lewagon .navbar-brand img {
+  width: 60px;
+}
 
-  #footer a {
-    color:#000;
-    font-size: 20px;
-  }
-  
-  .base-footer{
-    color:#000;
-    text-align: center;
-  }
+.img {
+  display: flex;
+  justify-content: space-between;
+}
 
-  
+.nav-link {
+  font-size: 20px;
+  color: #60656b !important;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+.nav-item .nav-link:hover {
+  color: pink !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 25px;
+}
+/* Banner */
+
+.banner {
+  height: 80vh;
+  color: #fff;
+  background: url("./Images/new-background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.btn-booking {
+  color: #fff;
+  background-color: #60656b;
+  border-radius: 50px;
+  padding: 10px 50px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 8px;
+  margin-top: 23px;
+}
+
+.btn-booking:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: pink;
+}
+
+/* About */
+
+.about {
+  margin-top: 25px;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 10px 10px;
+}
+
+/* Treatments */
+
+.treatment-cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+  padding-top: 10px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 10px 10px;
+}
+
+/* Contact */
+
+img {
+  border-radius: 100%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.btn-contact {
+  margin-top: 25px;
+  color: #fff;
+  background-color: #60656b;
+  border-radius: 50px;
+  padding: 10px 50px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.btn-contact:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: pink;
+}
+
+/* footer */
+
+#footer {
+  background-color: #c1d3d3;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  padding: 20px;
+  position: sticky;
+}
+
+#footer a {
+  color: #000;
+  font-size: 20px;
+}
+
+.base-footer {
+  color: #000;
+  text-align: center;
+}
+
+.list-inline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials {
+  margin-right: 10px;
+}
